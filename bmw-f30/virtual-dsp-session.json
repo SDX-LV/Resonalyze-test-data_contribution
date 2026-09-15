@@ -1,0 +1,2109 @@
+{
+  "format": "resonalyze-virtual-crossover",
+  "version": 11,
+  "savedAtUtc": "2026-09-15T10:12:26.4078346+00:00",
+  "spatialAverageMode": "MovingMic",
+  "channels": [],
+  "pairs": [
+    {
+      "mono": true,
+      "zone": "Sub",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "subb.json",
+        "sourceFilePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\subb.json",
+        "sourceRelativePath": "subb.json",
+        "spatialAveragePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\sub mmm.json",
+        "spatialAverageRelativePath": "sub mmm.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0.67,
+        "invertPolarity": false,
+        "crossoverKind": "LowPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 70,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 10,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 20,
+            "q": 1.2,
+            "gainDb": -3.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 32,
+            "q": 6,
+            "gainDb": -3.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 60,
+            "q": 5,
+            "gainDb": 4,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "",
+        "sourceFilePath": null,
+        "sourceRelativePath": null,
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "Off",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "hasSource": false
+      }
+    },
+    {
+      "mono": false,
+      "zone": "Front",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "l bass.json",
+        "sourceFilePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\l bass.json",
+        "sourceRelativePath": "l bass.json",
+        "spatialAveragePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\l bass mmm.json",
+        "spatialAverageRelativePath": "l bass mmm.json",
+        "historyEntryId": null,
+        "gainDb": -3,
+        "delayMs": 4.25,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 70,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 121,
+            "q": 1.8,
+            "gainDb": -7.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 129,
+            "q": 3,
+            "gainDb": -8.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 252,
+            "q": 2.5,
+            "gainDb": -8.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 181,
+            "q": 4,
+            "gainDb": 3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 71,
+            "q": 5,
+            "gainDb": 2.1,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "r bass.json",
+        "sourceFilePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\r bass.json",
+        "sourceRelativePath": "r bass.json",
+        "spatialAveragePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\r bass mmm.json",
+        "spatialAverageRelativePath": "r bass mmm.json",
+        "historyEntryId": null,
+        "gainDb": -3,
+        "delayMs": 3.25,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 70,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 130,
+            "q": 4.1,
+            "gainDb": -3.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 253,
+            "q": 5,
+            "gainDb": -3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 98,
+            "q": 6,
+            "gainDb": -2.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 143,
+            "q": 3.4,
+            "gainDb": -7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 167,
+            "q": 6,
+            "gainDb": 3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 110,
+            "q": 6,
+            "gainDb": 3.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 80,
+            "q": 5,
+            "gainDb": -6,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      }
+    },
+    {
+      "mono": false,
+      "zone": "Front",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "l mid.json",
+        "sourceFilePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\l mid.json",
+        "sourceRelativePath": "l mid.json",
+        "spatialAveragePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\l mid mmm.json",
+        "spatialAverageRelativePath": "l mid mmm.json",
+        "historyEntryId": null,
+        "gainDb": -5,
+        "delayMs": 12.72,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1586,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 267,
+            "q": 2.2,
+            "gainDb": -9.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1890,
+            "q": 4.2,
+            "gainDb": -8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 742,
+            "q": 5,
+            "gainDb": -4.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 484,
+            "q": 3.1,
+            "gainDb": -5.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 187,
+            "q": 5.4,
+            "gainDb": -6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1406,
+            "q": 10,
+            "gainDb": -2.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 421,
+            "q": 6,
+            "gainDb": -2.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2300,
+            "q": 6,
+            "gainDb": -2.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 582,
+            "q": 4.5,
+            "gainDb": -0.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 211,
+            "q": 4.7,
+            "gainDb": -1.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 395,
+            "q": 6.8,
+            "gainDb": -1.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 339,
+            "q": 8,
+            "gainDb": 4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1400,
+            "q": 5,
+            "gainDb": -0.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 200,
+            "q": 3.4,
+            "gainDb": 1,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "r mid.json",
+        "sourceFilePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\r mid.json",
+        "sourceRelativePath": "r mid.json",
+        "spatialAveragePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\r mid mmm.json",
+        "spatialAverageRelativePath": "r mid mmm.json",
+        "historyEntryId": null,
+        "gainDb": -2,
+        "delayMs": 10.99,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1586,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 170,
+            "q": 3.6,
+            "gainDb": -10.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1829,
+            "q": 3.1,
+            "gainDb": -7.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1399,
+            "q": 7.1,
+            "gainDb": -5.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 702,
+            "q": 8,
+            "gainDb": -3.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 260,
+            "q": 5,
+            "gainDb": -3.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 820,
+            "q": 10,
+            "gainDb": -1.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 441,
+            "q": 8,
+            "gainDb": -1.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1288,
+            "q": 8,
+            "gainDb": -0.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 240,
+            "q": 8,
+            "gainDb": -1.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1664,
+            "q": 8,
+            "gainDb": -1.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2326,
+            "q": 8,
+            "gainDb": -1.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 681,
+            "q": 8,
+            "gainDb": -0.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 972,
+            "q": 5,
+            "gainDb": 2,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      }
+    },
+    {
+      "mono": false,
+      "zone": "Front",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "l tw.json",
+        "sourceFilePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\l tw.json",
+        "sourceRelativePath": "l tw.json",
+        "spatialAveragePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\l tw mmm.json",
+        "spatialAverageRelativePath": "l tw mmm.json",
+        "historyEntryId": null,
+        "gainDb": -5,
+        "delayMs": 13,
+        "invertPolarity": true,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1900,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": -3,
+        "peqBands": [
+          {
+            "frequencyHz": 2407,
+            "q": 1.6,
+            "gainDb": -12.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 919,
+            "q": 1.8,
+            "gainDb": -8.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 9330,
+            "q": 2.7,
+            "gainDb": -8.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 4407,
+            "q": 5,
+            "gainDb": -2.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 11944,
+            "q": 6,
+            "gainDb": -2.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1174,
+            "q": 6.9,
+            "gainDb": -1.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 5506,
+            "q": 4.2,
+            "gainDb": -1.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1479,
+            "q": 4.5,
+            "gainDb": -1.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 7041,
+            "q": 6.6,
+            "gainDb": -1.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 14388,
+            "q": 6,
+            "gainDb": -1.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1077,
+            "q": 7,
+            "gainDb": -0.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 6481,
+            "q": 6.4,
+            "gainDb": -0.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 649,
+            "q": 6,
+            "gainDb": -1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 10140,
+            "q": 6,
+            "gainDb": 3.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2020,
+            "q": 5,
+            "gainDb": 3.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1725,
+            "q": 5.1,
+            "gainDb": -2.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2500,
+            "q": 2,
+            "gainDb": -2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 8000,
+            "q": 2,
+            "gainDb": 1,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "r tw.json",
+        "sourceFilePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\r tw.json",
+        "sourceRelativePath": "r tw.json",
+        "spatialAveragePath": "D:\\hobby\\Resonalyze-test-data\\bmw-f30\\r tw mmm.json",
+        "spatialAverageRelativePath": "r tw mmm.json",
+        "historyEntryId": null,
+        "gainDb": -2,
+        "delayMs": 11.38,
+        "invertPolarity": true,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 0.1
+        },
+        "highPassEdge": {
+          "family": "Butterworth",
+          "frequencyHz": 1900,
+          "slopeDbPerOctave": 48,
+          "rippleDb": 0.1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 2857,
+            "q": 1.2,
+            "gainDb": -14.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 678,
+            "q": 3.4,
+            "gainDb": -6.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 13897,
+            "q": 0.7,
+            "gainDb": -8.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1244,
+            "q": 3.2,
+            "gainDb": -6.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 852,
+            "q": 6,
+            "gainDb": -2.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1076,
+            "q": 3.9,
+            "gainDb": -2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 6166,
+            "q": 4.3,
+            "gainDb": -2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 18671,
+            "q": 6,
+            "gainDb": -2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 5377,
+            "q": 6,
+            "gainDb": -1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 7235,
+            "q": 8,
+            "gainDb": -1.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 9650,
+            "q": 8,
+            "gainDb": -1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1484,
+            "q": 6,
+            "gainDb": 3.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1749,
+            "q": 3.9,
+            "gainDb": 4.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 3893,
+            "q": 4.3,
+            "gainDb": 1.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 4390,
+            "q": 7,
+            "gainDb": 1.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 3450,
+            "q": 7,
+            "gainDb": 1.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2720,
+            "q": 6.8,
+            "gainDb": 1.8,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2500,
+            "q": 2,
+            "gainDb": -2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 8000,
+            "q": 2,
+            "gainDb": 1,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      }
+    }
+  ],
+  "dspProcessorModelId": "amp-panacea-v1-v2",
+  "dspProcessorSampleRateHz": 96000,
+  "dspProcessorQConvention": "Symmetric",
+  "dspProcessorPhaseControl": false,
+  "aiNotes": "\u0422\u0432\u0438\u0442\u0442\u0435\u0440\u044B \u0432 \u0443\u0433\u043E\u043B\u043A\u0430\u0445 \u0434\u0432\u0435\u0440\u0435 Hertz MP28.3 Pro;\r\n\u0421\u0427 \u0432 \u0434\u0432\u0435\u0440\u044F\u0445 Audison Prima AP 4;\r\n\u041F\u043E\u0434\u0441\u0438\u0434\u0435\u043B\u044C\u043D\u044B\u0435 \u043C\u0438\u0434\u0431\u0430\u0441\u044B HELIX Ci5 S200FM-S2;\r\n\u0421\u0430\u0431\u0432\u0443\u0444\u0435\u0440 \u0432 \u0417\u042F \u0432 \u0441\u0442\u0435\u043B\u0441 \u0438\u0441\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0438 \u0432 \u0431\u0430\u0433\u0430\u0436\u043D\u0438\u043A\u0435 Focal P25F;\r\nTrioma MOST-SPDIF link;\r\nAMP Panacea v2;\r\nAlpine MRV-M500;",
+  "stereoSceneOffsetMs": 0.22,
+  "stereoRightHandDrive": false,
+  "stereoLevelDifferenceDb": -1,
+  "activeSideRight": true,
+  "showSumCurve": true,
+  "showSumCurvePhase": false,
+  "showLossCurve": true,
+  "lossWindow": "Direct",
+  "groupView": "FrontAndSub",
+  "rearFillOffsetMs": 15,
+  "showHybridCurves": true,
+  "showPhaseView": false,
+  "showImpulseView": false,
+  "showGroupDelayView": false,
+  "showStepView": false,
+  "showSumCurveGroupDelay": false,
+  "showSumCurveStep": true,
+  "showTargetCurve": true,
+  "targetLevelDb": -43,
+  "target": {
+    "preset": "Custom",
+    "tiltDbPerOctave": 0,
+    "bassShelfGainDb": 16,
+    "bassShelfFrequencyHz": 100,
+    "bassShelfWidthOctaves": 0.9,
+    "trebleShelfGainDb": -3,
+    "trebleShelfFrequencyHz": 10000,
+    "trebleShelfWidthOctaves": 0.7,
+    "presenceGainDb": -1.5,
+    "presenceFrequencyHz": 2500,
+    "presenceWidthOctaves": 0.4,
+    "importedName": null,
+    "importedCurve": null,
+    "toleranceDb": 3,
+    "deviationMode": "Deviation",
+    "colorArgb": -14823007,
+    "strokeThickness": 2,
+    "lineStyle": "Dash",
+    "smoothingInverseOctaves": 0
+  },
+  "smoothingInverseOctaves": 6,
+  "psychoacousticSmoothing": true,
+  "dspPlotMode": "Magnitude",
+  "dspPlotCorrelationView": true,
+  "dspPlotCoherenceView": false,
+  "correlationPairIndex": 2,
+  "calibrationId": "cal-c94f1d526ca74096b25fdff34a1794aa",
+  "calibration": {
+    "name": "90",
+    "fileName": "39R460_cal_Sonarworks_90degree.txt",
+    "points": [
+      [
+        20,
+        -0.009999999999999617
+      ],
+      [
+        20.5,
+        -0.02000000000000038
+      ],
+      [
+        20.9,
+        -0.02000000000000038
+      ],
+      [
+        21.4,
+        -0.02000000000000038
+      ],
+      [
+        21.9,
+        -0.02999999999999988
+      ],
+      [
+        22.4,
+        -0.039999999999999765
+      ],
+      [
+        23,
+        -0.039999999999999765
+      ],
+      [
+        23.5,
+        -0.0499999999999998
+      ],
+      [
+        24.1,
+        -0.0599999999999996
+      ],
+      [
+        24.6,
+        -0.0599999999999996
+      ],
+      [
+        25.2,
+        -0.06999999999999958
+      ],
+      [
+        25.8,
+        -0.07999999999999977
+      ],
+      [
+        26.4,
+        -0.0899999999999998
+      ],
+      [
+        27,
+        -0.0899999999999998
+      ],
+      [
+        27.6,
+        -0.09999999999999984
+      ],
+      [
+        28.3,
+        -0.10999999999999953
+      ],
+      [
+        28.9,
+        -0.10999999999999953
+      ],
+      [
+        29.6,
+        -0.1199999999999999
+      ],
+      [
+        30.3,
+        -0.13000000000000048
+      ],
+      [
+        31,
+        -0.14000000000000032
+      ],
+      [
+        31.7,
+        -0.14000000000000032
+      ],
+      [
+        32.5,
+        -0.1499999999999999
+      ],
+      [
+        33.2,
+        -0.16000000000000036
+      ],
+      [
+        34,
+        -0.17000000000000043
+      ],
+      [
+        34.8,
+        -0.17000000000000043
+      ],
+      [
+        35.6,
+        -0.1799999999999996
+      ],
+      [
+        36.5,
+        -0.19000000000000034
+      ],
+      [
+        37.3,
+        -0.19000000000000034
+      ],
+      [
+        38.2,
+        -0.20000000000000012
+      ],
+      [
+        39.1,
+        -0.20999999999999952
+      ],
+      [
+        40,
+        -0.21999999999999958
+      ],
+      [
+        40.9,
+        -0.21999999999999958
+      ],
+      [
+        41.9,
+        -0.22999999999999993
+      ],
+      [
+        42.9,
+        -0.24000000000000005
+      ],
+      [
+        43.9,
+        -0.24000000000000005
+      ],
+      [
+        44.9,
+        -0.2500000000000004
+      ],
+      [
+        45.9,
+        -0.2599999999999998
+      ],
+      [
+        47,
+        -0.26999999999999974
+      ],
+      [
+        48.1,
+        -0.26999999999999974
+      ],
+      [
+        49.2,
+        -0.27999999999999964
+      ],
+      [
+        50.4,
+        -0.29000000000000004
+      ],
+      [
+        51.6,
+        -0.29000000000000004
+      ],
+      [
+        52.8,
+        -0.30000000000000027
+      ],
+      [
+        54,
+        -0.3099999999999995
+      ],
+      [
+        55.3,
+        -0.32000000000000034
+      ],
+      [
+        56.6,
+        -0.32000000000000034
+      ],
+      [
+        57.9,
+        -0.33000000000000024
+      ],
+      [
+        59.2,
+        -0.33999999999999964
+      ],
+      [
+        60.6,
+        -0.3499999999999997
+      ],
+      [
+        62,
+        -0.36
+      ],
+      [
+        63.5,
+        -0.37000000000000033
+      ],
+      [
+        65,
+        -0.3799999999999998
+      ],
+      [
+        66.5,
+        -0.3900000000000003
+      ],
+      [
+        68,
+        -0.3999999999999996
+      ],
+      [
+        69.6,
+        -0.42000000000000026
+      ],
+      [
+        71.3,
+        -0.42999999999999977
+      ],
+      [
+        72.9,
+        -0.4399999999999999
+      ],
+      [
+        74.6,
+        -0.45999999999999963
+      ],
+      [
+        76.4,
+        -0.45999999999999963
+      ],
+      [
+        78.2,
+        -0.46999999999999975
+      ],
+      [
+        80,
+        -0.46999999999999975
+      ],
+      [
+        81.9,
+        -0.46999999999999975
+      ],
+      [
+        83.8,
+        -0.46999999999999975
+      ],
+      [
+        85.7,
+        -0.46999999999999975
+      ],
+      [
+        87.7,
+        -0.46999999999999975
+      ],
+      [
+        89.8,
+        -0.45999999999999963
+      ],
+      [
+        91.9,
+        -0.45999999999999963
+      ],
+      [
+        94,
+        -0.4499999999999995
+      ],
+      [
+        96.2,
+        -0.4399999999999999
+      ],
+      [
+        98.5,
+        -0.4399999999999999
+      ],
+      [
+        100.8,
+        -0.42999999999999977
+      ],
+      [
+        103.1,
+        -0.42000000000000026
+      ],
+      [
+        105.5,
+        -0.40999999999999953
+      ],
+      [
+        108,
+        -0.40999999999999953
+      ],
+      [
+        110.5,
+        -0.3999999999999996
+      ],
+      [
+        113.1,
+        -0.3900000000000003
+      ],
+      [
+        115.8,
+        -0.3799999999999998
+      ],
+      [
+        118.5,
+        -0.3799999999999998
+      ],
+      [
+        121.2,
+        -0.37000000000000033
+      ],
+      [
+        124.1,
+        -0.37000000000000033
+      ],
+      [
+        127,
+        -0.36
+      ],
+      [
+        129.9,
+        -0.36
+      ],
+      [
+        133,
+        -0.36
+      ],
+      [
+        136.1,
+        -0.3499999999999997
+      ],
+      [
+        139.3,
+        -0.3499999999999997
+      ],
+      [
+        142.5,
+        -0.3499999999999997
+      ],
+      [
+        145.8,
+        -0.3499999999999997
+      ],
+      [
+        149.3,
+        -0.3499999999999997
+      ],
+      [
+        152.7,
+        -0.3499999999999997
+      ],
+      [
+        156.3,
+        -0.3499999999999997
+      ],
+      [
+        160,
+        -0.3499999999999997
+      ],
+      [
+        163.7,
+        -0.3499999999999997
+      ],
+      [
+        167.5,
+        -0.3499999999999997
+      ],
+      [
+        171.5,
+        -0.3499999999999997
+      ],
+      [
+        175.5,
+        -0.33999999999999964
+      ],
+      [
+        179.6,
+        -0.33000000000000024
+      ],
+      [
+        183.8,
+        -0.32000000000000034
+      ],
+      [
+        188.1,
+        -0.30000000000000027
+      ],
+      [
+        192.4,
+        -0.29000000000000004
+      ],
+      [
+        196.9,
+        -0.2599999999999998
+      ],
+      [
+        201.5,
+        -0.24000000000000005
+      ],
+      [
+        206.3,
+        -0.21999999999999958
+      ],
+      [
+        211.1,
+        -0.20000000000000012
+      ],
+      [
+        216,
+        -0.1799999999999996
+      ],
+      [
+        221.1,
+        -0.17000000000000043
+      ],
+      [
+        226.2,
+        -0.16000000000000036
+      ],
+      [
+        231.5,
+        -0.16000000000000036
+      ],
+      [
+        236.9,
+        -0.16000000000000036
+      ],
+      [
+        242.5,
+        -0.16000000000000036
+      ],
+      [
+        248.1,
+        -0.16000000000000036
+      ],
+      [
+        253.9,
+        -0.16000000000000036
+      ],
+      [
+        259.9,
+        -0.16000000000000036
+      ],
+      [
+        265.9,
+        -0.1499999999999999
+      ],
+      [
+        272.2,
+        -0.14000000000000032
+      ],
+      [
+        278.5,
+        -0.13000000000000048
+      ],
+      [
+        285,
+        -0.10999999999999953
+      ],
+      [
+        291.7,
+        -0.0899999999999998
+      ],
+      [
+        298.5,
+        -0.07999999999999977
+      ],
+      [
+        305.5,
+        -0.0599999999999996
+      ],
+      [
+        312.6,
+        -0.039999999999999765
+      ],
+      [
+        319.9,
+        -0.02000000000000038
+      ],
+      [
+        327.4,
+        -0.009999999999999617
+      ],
+      [
+        335.1,
+        0.010000000000000514
+      ],
+      [
+        342.9,
+        0.019999999999999536
+      ],
+      [
+        350.9,
+        0.03000000000000063
+      ],
+      [
+        359.1,
+        0.040000000000000535
+      ],
+      [
+        367.5,
+        0.040000000000000535
+      ],
+      [
+        376.1,
+        0.05000000000000049
+      ],
+      [
+        384.9,
+        0.05000000000000049
+      ],
+      [
+        393.9,
+        0.05000000000000049
+      ],
+      [
+        403.1,
+        0.05000000000000049
+      ],
+      [
+        412.5,
+        0.05000000000000049
+      ],
+      [
+        422.1,
+        0.05000000000000049
+      ],
+      [
+        432,
+        0.05000000000000049
+      ],
+      [
+        442.1,
+        0.05000000000000049
+      ],
+      [
+        452.4,
+        0.05000000000000049
+      ],
+      [
+        463,
+        0.06000000000000013
+      ],
+      [
+        473.8,
+        0.06999999999999916
+      ],
+      [
+        484.9,
+        0.06999999999999916
+      ],
+      [
+        496.2,
+        0.08000000000000082
+      ],
+      [
+        507.8,
+        0.08000000000000082
+      ],
+      [
+        519.7,
+        0.08000000000000082
+      ],
+      [
+        531.8,
+        0.08000000000000082
+      ],
+      [
+        544.3,
+        0.06999999999999916
+      ],
+      [
+        557,
+        0.06000000000000013
+      ],
+      [
+        570,
+        0.06000000000000013
+      ],
+      [
+        583.3,
+        0.06000000000000013
+      ],
+      [
+        597,
+        0.06000000000000013
+      ],
+      [
+        610.9,
+        0.06999999999999916
+      ],
+      [
+        625.2,
+        0.09000000000000011
+      ],
+      [
+        639.8,
+        0.10000000000000057
+      ],
+      [
+        654.8,
+        0.12000000000000069
+      ],
+      [
+        670.1,
+        0.13999999999999913
+      ],
+      [
+        685.7,
+        0.15999999999999948
+      ],
+      [
+        701.7,
+        0.15999999999999948
+      ],
+      [
+        718.1,
+        0.15999999999999948
+      ],
+      [
+        734.9,
+        0.15999999999999948
+      ],
+      [
+        752.1,
+        0.14999999999999908
+      ],
+      [
+        769.7,
+        0.1299999999999991
+      ],
+      [
+        787.7,
+        0.12000000000000069
+      ],
+      [
+        806.1,
+        0.11000000000000063
+      ],
+      [
+        824.9,
+        0.10000000000000057
+      ],
+      [
+        844.2,
+        0.09000000000000011
+      ],
+      [
+        863.9,
+        0.09000000000000011
+      ],
+      [
+        884.1,
+        0.09000000000000011
+      ],
+      [
+        904.8,
+        0.09000000000000011
+      ],
+      [
+        925.9,
+        0.10000000000000057
+      ],
+      [
+        947.6,
+        0.10000000000000057
+      ],
+      [
+        969.7,
+        0.10000000000000057
+      ],
+      [
+        992.4,
+        0.10000000000000057
+      ],
+      [
+        1015.6,
+        0.10000000000000057
+      ],
+      [
+        1039.3,
+        0.10000000000000057
+      ],
+      [
+        1063.6,
+        0.09000000000000011
+      ],
+      [
+        1088.5,
+        0.08000000000000082
+      ],
+      [
+        1113.9,
+        0.06999999999999916
+      ],
+      [
+        1139.9,
+        0.05000000000000049
+      ],
+      [
+        1166.6,
+        0.040000000000000535
+      ],
+      [
+        1193.8,
+        0.03000000000000063
+      ],
+      [
+        1221.8,
+        0.019999999999999536
+      ],
+      [
+        1250.3,
+        0.019999999999999536
+      ],
+      [
+        1279.5,
+        0.010000000000000514
+      ],
+      [
+        1309.4,
+        0
+      ],
+      [
+        1340,
+        0
+      ],
+      [
+        1371.4,
+        0
+      ],
+      [
+        1403.4,
+        0
+      ],
+      [
+        1436.2,
+        0
+      ],
+      [
+        1469.8,
+        0
+      ],
+      [
+        1504.1,
+        -0.009999999999999617
+      ],
+      [
+        1539.3,
+        -0.009999999999999617
+      ],
+      [
+        1575.3,
+        -0.009999999999999617
+      ],
+      [
+        1612.1,
+        -0.02000000000000038
+      ],
+      [
+        1649.7,
+        -0.02000000000000038
+      ],
+      [
+        1688.3,
+        -0.02999999999999988
+      ],
+      [
+        1727.8,
+        -0.039999999999999765
+      ],
+      [
+        1768.1,
+        -0.0499999999999998
+      ],
+      [
+        1809.5,
+        -0.0599999999999996
+      ],
+      [
+        1851.8,
+        -0.06999999999999958
+      ],
+      [
+        1895,
+        -0.07999999999999977
+      ],
+      [
+        1939.3,
+        -0.0899999999999998
+      ],
+      [
+        1984.7,
+        -0.09999999999999984
+      ],
+      [
+        2031,
+        -0.10999999999999953
+      ],
+      [
+        2078.5,
+        -0.13000000000000048
+      ],
+      [
+        2127.1,
+        -0.14000000000000032
+      ],
+      [
+        2176.8,
+        -0.16000000000000036
+      ],
+      [
+        2227.7,
+        -0.17000000000000043
+      ],
+      [
+        2279.7,
+        -0.19000000000000034
+      ],
+      [
+        2333,
+        -0.20000000000000012
+      ],
+      [
+        2387.6,
+        -0.20999999999999952
+      ],
+      [
+        2443.4,
+        -0.22999999999999993
+      ],
+      [
+        2500.5,
+        -0.24000000000000005
+      ],
+      [
+        2558.9,
+        -0.2599999999999998
+      ],
+      [
+        2618.7,
+        -0.26999999999999974
+      ],
+      [
+        2679.9,
+        -0.27999999999999964
+      ],
+      [
+        2742.5,
+        -0.30000000000000027
+      ],
+      [
+        2806.6,
+        -0.3099999999999995
+      ],
+      [
+        2872.2,
+        -0.33000000000000024
+      ],
+      [
+        2939.4,
+        -0.33999999999999964
+      ],
+      [
+        3008.1,
+        -0.36
+      ],
+      [
+        3078.4,
+        -0.37000000000000033
+      ],
+      [
+        3150.3,
+        -0.3900000000000003
+      ],
+      [
+        3223.9,
+        -0.3999999999999996
+      ],
+      [
+        3299.3,
+        -0.42000000000000026
+      ],
+      [
+        3376.4,
+        -0.42999999999999977
+      ],
+      [
+        3455.3,
+        -0.4399999999999999
+      ],
+      [
+        3536.1,
+        -0.4399999999999999
+      ],
+      [
+        3618.7,
+        -0.4399999999999999
+      ],
+      [
+        3703.3,
+        -0.4399999999999999
+      ],
+      [
+        3789.8,
+        -0.4399999999999999
+      ],
+      [
+        3878.4,
+        -0.42999999999999977
+      ],
+      [
+        3969.1,
+        -0.42000000000000026
+      ],
+      [
+        4061.8,
+        -0.4499999999999995
+      ],
+      [
+        4156.8,
+        -0.42999999999999977
+      ],
+      [
+        4253.9,
+        -0.42999999999999977
+      ],
+      [
+        4353.3,
+        -0.42000000000000026
+      ],
+      [
+        4455.1,
+        -0.42999999999999977
+      ],
+      [
+        4559.2,
+        -0.42999999999999977
+      ],
+      [
+        4665.8,
+        -0.4499999999999995
+      ],
+      [
+        4774.8,
+        -0.47999999999999965
+      ],
+      [
+        4886.4,
+        -0.4999999999999999
+      ],
+      [
+        5000.6,
+        -0.5399999999999996
+      ],
+      [
+        5117.5,
+        -0.5900000000000001
+      ],
+      [
+        5237.1,
+        -0.6599999999999997
+      ],
+      [
+        5359.5,
+        -0.7199999999999998
+      ],
+      [
+        5484.8,
+        -0.7999999999999997
+      ],
+      [
+        5612.9,
+        -0.8699999999999996
+      ],
+      [
+        5744.1,
+        -0.9600000000000006
+      ],
+      [
+        5878.4,
+        -1.06
+      ],
+      [
+        6015.8,
+        -1.17
+      ],
+      [
+        6156.4,
+        -1.2600000000000007
+      ],
+      [
+        6300.2,
+        -1.3600000000000003
+      ],
+      [
+        6447.5,
+        -1.45
+      ],
+      [
+        6598.2,
+        -1.5499999999999998
+      ],
+      [
+        6752.4,
+        -1.6399999999999997
+      ],
+      [
+        6910.2,
+        -1.7199999999999995
+      ],
+      [
+        7071.7,
+        -1.7999999999999994
+      ],
+      [
+        7237,
+        -1.8900000000000003
+      ],
+      [
+        7406.1,
+        -1.9699999999999995
+      ],
+      [
+        7579.2,
+        -2.05
+      ],
+      [
+        7756.4,
+        -2.1200000000000006
+      ],
+      [
+        7937.7,
+        -2.2
+      ],
+      [
+        8123.2,
+        -2.2800000000000002
+      ],
+      [
+        8313,
+        -2.3400000000000003
+      ],
+      [
+        8507.3,
+        -2.38
+      ],
+      [
+        8706.1,
+        -2.41
+      ],
+      [
+        8909.6,
+        -2.4300000000000006
+      ],
+      [
+        9117.9,
+        -2.4199999999999995
+      ],
+      [
+        9331,
+        -2.3899999999999997
+      ],
+      [
+        9549,
+        -2.3499999999999996
+      ],
+      [
+        9772.2,
+        -2.29
+      ],
+      [
+        10000.6,
+        -2.2200000000000006
+      ],
+      [
+        10234.3,
+        -2.1499999999999995
+      ],
+      [
+        10473.5,
+        -2.0699999999999994
+      ],
+      [
+        10718.3,
+        -2
+      ],
+      [
+        10968.8,
+        -1.9399999999999997
+      ],
+      [
+        11225.2,
+        -1.8700000000000006
+      ],
+      [
+        11487.5,
+        -1.8200000000000003
+      ],
+      [
+        11756,
+        -1.7700000000000002
+      ],
+      [
+        12030.8,
+        -1.7199999999999995
+      ],
+      [
+        12312,
+        -1.6499999999999992
+      ],
+      [
+        12599.7,
+        -1.5599999999999994
+      ],
+      [
+        12894.2,
+        -1.4599999999999993
+      ],
+      [
+        13195.6,
+        -1.3300000000000003
+      ],
+      [
+        13504,
+        -1.1999999999999993
+      ],
+      [
+        13819.6,
+        -1.02
+      ],
+      [
+        14142.6,
+        -0.8300000000000001
+      ],
+      [
+        14473.1,
+        -0.6199999999999998
+      ],
+      [
+        14811.4,
+        -0.3999999999999996
+      ],
+      [
+        15157.5,
+        -0.1799999999999996
+      ],
+      [
+        15511.8,
+        0.040000000000000535
+      ],
+      [
+        15874.3,
+        0.2700000000000007
+      ],
+      [
+        16245.3,
+        0.48
+      ],
+      [
+        16625,
+        0.7100000000000006
+      ],
+      [
+        17013.6,
+        0.9199999999999993
+      ],
+      [
+        17411.2,
+        1.1299999999999997
+      ],
+      [
+        17818.2,
+        1.34
+      ],
+      [
+        18234.6,
+        1.5400000000000005
+      ],
+      [
+        18660.8,
+        1.7300000000000004
+      ],
+      [
+        19096.9,
+        1.9100000000000006
+      ],
+      [
+        19543.2,
+        2.0399999999999996
+      ],
+      [
+        20000,
+        2.1500000000000004
+      ]
+    ]
+  },
+  "phaseGateLeft": {
+    "offsetMs": null,
+    "detrendMs": 16.82
+  },
+  "phaseGateRight": {
+    "offsetMs": null,
+    "detrendMs": 17
+  },
+  "phaseGateOffsetMs": null,
+  "phaseDetrendMs": null,
+  "phaseGateLeftMs": 5,
+  "phaseGatePlateauMs": 50,
+  "phaseGateRightMs": 20,
+  "phaseWindowMode": "FrequencyDependent",
+  "phaseFdwCycles": 8,
+  "phaseDetrendMode": "Auto"
+}
