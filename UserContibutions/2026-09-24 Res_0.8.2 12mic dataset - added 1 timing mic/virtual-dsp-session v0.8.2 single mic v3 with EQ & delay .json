@@ -1,0 +1,635 @@
+{
+  "format": "resonalyze-virtual-crossover",
+  "version": 11,
+  "savedAtUtc": "2026-09-24T21:53:27.7531955+00:00",
+  "spatialAverageMode": "MicArray",
+  "channels": [],
+  "pairs": [
+    {
+      "mono": true,
+      "zone": "Sub",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "1 Subwoofer rear Resonalyze-IR-2026-09-24_18-05-17.json",
+        "sourceFilePath": "D:\\STUFF\\Sound \u0026 Video\\Sergejs Audio measurements\\Resonalyze measurement projects\\2026-09-24 Res_0.8.2 12mic dataset - added 1 timing mic\\1 Subwoofer rear Resonalyze-IR-2026-09-24_18-05-17.json",
+        "sourceRelativePath": "1 Subwoofer rear Resonalyze-IR-2026-09-24_18-05-17.json",
+        "historyEntryId": null,
+        "gainDb": -0.9,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 60,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 20,
+          "slopeDbPerOctave": 36,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": -8,
+        "peqBands": [
+          {
+            "frequencyHz": 20,
+            "q": 0.9,
+            "gainDb": -9.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 45,
+            "q": 0.9,
+            "gainDb": -12.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 74,
+            "q": 5.4,
+            "gainDb": 5.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 83,
+            "q": 5.7,
+            "gainDb": -3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 122,
+            "q": 1.1,
+            "gainDb": -5.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 170,
+            "q": 5.6,
+            "gainDb": 5.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 66,
+            "q": 5,
+            "gainDb": 4.3,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "",
+        "sourceFilePath": null,
+        "sourceRelativePath": null,
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "Off",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "hasSource": false
+      }
+    },
+    {
+      "mono": true,
+      "zone": "Sub",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "1 woofer Mono front Resonalyze-IR-2026-09-24_18-04-26.json",
+        "sourceFilePath": "D:\\STUFF\\Sound \u0026 Video\\Sergejs Audio measurements\\Resonalyze measurement projects\\2026-09-24 Res_0.8.2 12mic dataset - added 1 timing mic\\1 woofer Mono front Resonalyze-IR-2026-09-24_18-04-26.json",
+        "sourceRelativePath": "1 woofer Mono front Resonalyze-IR-2026-09-24_18-04-26.json",
+        "historyEntryId": null,
+        "gainDb": -1.5,
+        "delayMs": 5.06,
+        "invertPolarity": false,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 60,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": -3,
+        "peqBands": [
+          {
+            "frequencyHz": 23,
+            "q": 1.8,
+            "gainDb": 3.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 37,
+            "q": 4.4,
+            "gainDb": 4.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 69,
+            "q": 0.5,
+            "gainDb": -9.4,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 73,
+            "q": 1.5,
+            "gainDb": -4.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 149,
+            "q": 3,
+            "gainDb": 3.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 220,
+            "q": 1.6,
+            "gainDb": -3.9,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 251,
+            "q": 2.8,
+            "gainDb": 3.2,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "",
+        "sourceFilePath": null,
+        "sourceRelativePath": null,
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 0,
+        "invertPolarity": false,
+        "crossoverKind": "Off",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [],
+        "peqSourceName": null,
+        "hasSource": false
+      }
+    },
+    {
+      "mono": false,
+      "zone": "Front",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "17 FrL Mi Resonalyze-IR-2026-09-24_17-59-04.json",
+        "sourceFilePath": "C:\\2025 EX30 speaker mule car (local copy from Teams)\\PEQ RME tunings (Sergejs)\\Measurements\\2026-09-24 Res EX30 timing with XLR\\17 FrL Mi Resonalyze-IR-2026-09-24_17-59-04.json",
+        "sourceRelativePath": null,
+        "historyEntryId": "e15e4f1b-c365-44fe-bb61-7455faad0490",
+        "gainDb": -3.2,
+        "delayMs": 5.68,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2800,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 376,
+            "q": 0.6,
+            "gainDb": -9.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 806,
+            "q": 1.5,
+            "gainDb": 6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1007,
+            "q": 6,
+            "gainDb": -6.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1819,
+            "q": 2.3,
+            "gainDb": -13.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 2611,
+            "q": 6,
+            "gainDb": 3.9,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "1 FrRight Midrange Resonalyze-IR-2026-09-24_17-59-40.json",
+        "sourceFilePath": "D:\\STUFF\\Sound \u0026 Video\\Sergejs Audio measurements\\Resonalyze measurement projects\\2026-09-24 Res_0.8.2 12mic dataset - added 1 timing mic\\1 FrRight Midrange Resonalyze-IR-2026-09-24_17-59-40.json",
+        "sourceRelativePath": "1 FrRight Midrange Resonalyze-IR-2026-09-24_17-59-40.json",
+        "historyEntryId": null,
+        "gainDb": -3.7,
+        "delayMs": 4.96,
+        "invertPolarity": true,
+        "crossoverKind": "BandPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2800,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 200,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 196,
+            "q": 5.3,
+            "gainDb": -5.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 445,
+            "q": 6,
+            "gainDb": 6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 462,
+            "q": 1.4,
+            "gainDb": -7.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1797,
+            "q": 3.5,
+            "gainDb": -8.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 5969,
+            "q": 0.7,
+            "gainDb": 3.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 65,
+            "q": 5,
+            "gainDb": 6,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      }
+    },
+    {
+      "mono": false,
+      "zone": "Front",
+      "collapsed": false,
+      "enabled": true,
+      "bypass": false,
+      "showRawCurve": false,
+      "showProcessedCurve": true,
+      "left": {
+        "displayName": "1 FrLeft tweeter Resonalyze-IR-2026-09-24_17-54-46.json",
+        "sourceFilePath": "D:\\STUFF\\Sound \u0026 Video\\Sergejs Audio measurements\\Resonalyze measurement projects\\2026-09-24 Res_0.8.2 12mic dataset - added 1 timing mic\\1 FrLeft tweeter Resonalyze-IR-2026-09-24_17-54-46.json",
+        "sourceRelativePath": "1 FrLeft tweeter Resonalyze-IR-2026-09-24_17-54-46.json",
+        "historyEntryId": null,
+        "gainDb": 0,
+        "delayMs": 5.88,
+        "invertPolarity": true,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2800,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 3116,
+            "q": 5.1,
+            "gainDb": -5.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 4035,
+            "q": 6,
+            "gainDb": 4.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 4629,
+            "q": 2.2,
+            "gainDb": -11.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 6328,
+            "q": 6,
+            "gainDb": -3.7,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 14292,
+            "q": 2.8,
+            "gainDb": -5.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 954,
+            "q": 1,
+            "gainDb": 6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 1805,
+            "q": 5,
+            "gainDb": -3.5,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      },
+      "right": {
+        "displayName": "16 FrR tw Resonalyze-IR-2026-09-24_17-56-33.json",
+        "sourceFilePath": "C:\\2025 EX30 speaker mule car (local copy from Teams)\\PEQ RME tunings (Sergejs)\\Measurements\\2026-09-24 Res EX30 timing with XLR\\16 FrR tw Resonalyze-IR-2026-09-24_17-56-33.json",
+        "sourceRelativePath": null,
+        "historyEntryId": "f6d43c8d-c0f0-43fa-a9eb-4d7eb76f2d93",
+        "gainDb": -0.4,
+        "delayMs": 5.01,
+        "invertPolarity": true,
+        "crossoverKind": "HighPass",
+        "lowPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2000,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "highPassEdge": {
+          "family": "LinkwitzRiley",
+          "frequencyHz": 2800,
+          "slopeDbPerOctave": 24,
+          "rippleDb": 1
+        },
+        "phaseRotationDegrees": 0,
+        "peqPreampDb": 0,
+        "peqBands": [
+          {
+            "frequencyHz": 2101,
+            "q": 3.9,
+            "gainDb": -9.5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 4733,
+            "q": 1.2,
+            "gainDb": -5.6,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 6042,
+            "q": 6,
+            "gainDb": -3.2,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 7714,
+            "q": 6,
+            "gainDb": -3.3,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 13980,
+            "q": 3.4,
+            "gainDb": -5,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 17596,
+            "q": 2,
+            "gainDb": 3.1,
+            "type": "Peaking",
+            "isTransparent": false
+          },
+          {
+            "frequencyHz": 19761,
+            "q": 1,
+            "gainDb": 5,
+            "type": "Peaking",
+            "isTransparent": false
+          }
+        ],
+        "peqSourceName": "EQ Wizard",
+        "hasSource": true
+      }
+    }
+  ],
+  "dspProcessorModelId": null,
+  "dspProcessorSampleRateHz": null,
+  "dspProcessorQConvention": "Rbj",
+  "dspProcessorPhaseControl": false,
+  "dspProcessorFirFilters": false,
+  "stereoSceneOffsetMs": 0,
+  "stereoRightHandDrive": false,
+  "stereoLevelDifferenceDb": -0,
+  "activeSideRight": false,
+  "showSumCurve": true,
+  "showSumCurvePhase": null,
+  "showLossCurve": true,
+  "lossWindow": "Direct",
+  "groupView": "FrontAndSub",
+  "rearFillOffsetMs": 15,
+  "showHybridCurves": false,
+  "junctionTune": {
+    "junction": "C-D",
+    "families": [
+      "LinkwitzRiley"
+    ],
+    "independentSlopes": true,
+    "splitCorners": true,
+    "acoustic": false,
+    "minSlopeDbPerOctave": 24,
+    "maxSlopeDbPerOctave": 24,
+    "sumBudgetDb": 1,
+    "goal": null,
+    "windows": {
+      "A-B": [
+        40,
+        85
+      ],
+      "B-C": [
+        180,
+        220
+      ],
+      "C-D": [
+        2000,
+        3950
+      ]
+    }
+  },
+  "showPhaseView": false,
+  "showImpulseView": false,
+  "showGroupDelayView": false,
+  "showStepView": false,
+  "showSumCurveGroupDelay": null,
+  "showSumCurveStep": null,
+  "showTargetCurve": true,
+  "targetLevelDb": -30.5,
+  "target": {
+    "preset": "Flat",
+    "tiltDbPerOctave": 0,
+    "bassShelfGainDb": 0,
+    "bassShelfFrequencyHz": 100,
+    "bassShelfWidthOctaves": 1.5,
+    "trebleShelfGainDb": 0,
+    "trebleShelfFrequencyHz": 5000,
+    "trebleShelfWidthOctaves": 1.5,
+    "presenceGainDb": 0,
+    "presenceFrequencyHz": 3000,
+    "presenceWidthOctaves": 1,
+    "importedName": null,
+    "importedCurve": null,
+    "toleranceDb": 3,
+    "deviationMode": "Deviation",
+    "colorArgb": -13121376,
+    "strokeThickness": 2,
+    "lineStyle": "Dash",
+    "smoothingInverseOctaves": 0
+  },
+  "smoothingInverseOctaves": 6,
+  "psychoacousticSmoothing": true,
+  "dspPlotMode": "Magnitude",
+  "dspPlotCorrelationView": false,
+  "dspPlotCoherenceView": false,
+  "correlationPairIndex": 0,
+  "calibrationId": null,
+  "phaseGateLeft": {
+    "offsetMs": null,
+    "detrendMs": null
+  },
+  "phaseGateRight": {
+    "offsetMs": null,
+    "detrendMs": null
+  },
+  "phaseGateOffsetMs": null,
+  "phaseDetrendMs": null,
+  "phaseGateLeftMs": 1,
+  "phaseGatePlateauMs": 30,
+  "phaseGateRightMs": 10,
+  "phaseWindowMode": "FrequencyDependent",
+  "phaseFdwCycles": 8,
+  "phaseDetrendMode": "Auto"
+}
